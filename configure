@@ -2953,14 +2953,15 @@ if test x"${MISSING+set}" != xset; then
   esac
 fi
 
+am_missing_run="$MISSING "
 # Use eval to expand $SHELL
-if eval "$MISSING"; then
-  am_missing_run="$MISSING "
-else
-  am_missing_run=
-  { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: 'missing' script is too old or missing" >&5
-$as_echo "$as_me: WARNING: 'missing' script is too old or missing" >&2;}
-fi
+# if eval "$MISSING"; then
+#   am_missing_run="$MISSING "
+# else
+#   am_missing_run=
+#   { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: 'missing' script is too old or missing ???" >&5
+# $as_echo "$as_me: WARNING: 'missing' script is too old or missing" >&2;}
+# fi
 
 if test x"${install_sh}" != xset; then
   case $am_aux_dir in
